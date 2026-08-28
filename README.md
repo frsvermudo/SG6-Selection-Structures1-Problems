@@ -80,7 +80,7 @@ Input age
 
 Input membership status
 
-IF (student OR age is 65 or older) AND has membership THEN
+IF (student = "Y" OR age ≥ 65) AND (membership = "yes") THEN
 
 * Display "You are eligible for a discount."
 
